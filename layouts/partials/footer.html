@@ -15,10 +15,7 @@
       {{ if not .Site.Params.hideCopyright }} · {{ end }}
       {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> 
     {{ end }}
+
     {{ if .Site.Params.Author }} Made with ❤️ by {{ .Site.Params.Author }} {{ end }}
-    #{{ if .Site.Params.commit }}
-      #{{ if or (not .Site.Params.hideCredits) (not .Site.Params.hideCopyright) }} · {{ end }}
-      #[<a href="{{ .Site.Params.commit }}{{ getenv "GIT_COMMIT_SHA" }}">{{ getenv "GIT_COMMIT_SHA_SHORT" }}</a>]
-    #{{ end }}
   </section>
 </footer>
