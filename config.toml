@@ -125,21 +125,21 @@ disqusShortname = "yourdiscussshortname"
         [languages.zh-cn.menu]
 
             [[languages.zh-cn.menu.main]]
-            name = "Sobre"
+            name = "关于"
             weight = 1
             url = "about/"
 
             [[languages.zh-cn.menu.main]]
-            name = "Blog"
+            name = "博客"
             weight = 2
             url = "posts/"
 
             [[languages.zh-cn.menu.main]]
-            name = "Projetos"
+            name = "项目"
             weight = 3
             url = "projects/"
 
             [[languages.zh-cn.menu.main]]
-            name = "Contato"
+            name = "联系"
             weight = 5
             url = "contact/"
