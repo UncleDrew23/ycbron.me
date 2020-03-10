@@ -14,7 +14,6 @@ featured_image = "https://images.unsplash.com/photo-1558566121-1fd2259638ef?ixli
 +++
 
 
-
 ### 只关注循环执行次数最多的一段代码
 
    ```c++
@@ -60,8 +59,6 @@ featured_image = "https://images.unsplash.com/photo-1558566121-1fd2259638ef?ixli
     }
    ```
 
-
-
 ### 乘法法则：嵌套代码的复杂度等于嵌套内外代码复杂度的乘积
 
    ```c++
@@ -82,8 +79,6 @@ featured_image = "https://images.unsplash.com/photo-1558566121-1fd2259638ef?ixli
      return sum;
     }
    ```
-
-
 
 ### 常见的多项式复杂度
 
