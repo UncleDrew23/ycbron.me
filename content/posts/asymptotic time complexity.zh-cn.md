@@ -1,4 +1,17 @@
-
++++
+date = "2020-03-10"
+title = "时间复杂度分析"
+tags = [
+    "Algorithm",
+    "Data Structure"  
+]
+categories = [
+    "Algorithm",
+    "Data Structure",
+]
+series = ["Data Structures and Algorithms"]
+featured_image = "https://images.unsplash.com/photo-1558566121-1fd2259638ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
++++
 
 
 
