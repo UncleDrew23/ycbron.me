@@ -15,9 +15,7 @@ featured_image = "https://images.unsplash.com/photo-1558566121-1fd2259638ef?ixli
 
 
 
-# 时间复杂度分析
-
-1. ### 只关注循环执行次数最多的一段代码
+### 只关注循环执行次数最多的一段代码
 
    ```c++
     int cal(int n) {
@@ -30,7 +28,9 @@ featured_image = "https://images.unsplash.com/photo-1558566121-1fd2259638ef?ixli
     }
    ```
 
-2. ### 加法法则：总复杂度等于量级最大的那段代码的复杂度
+
+
+### 加法法则：总复杂度等于量级最大的那段代码的复杂度
 
    ```c++
    int cal(int n) {
@@ -60,7 +60,9 @@ featured_image = "https://images.unsplash.com/photo-1558566121-1fd2259638ef?ixli
     }
    ```
 
-3. ### 乘法法则：嵌套代码的复杂度等于嵌套内外代码复杂度的乘积
+
+
+### 乘法法则：嵌套代码的复杂度等于嵌套内外代码复杂度的乘积
 
    ```c++
    int cal(int n) {
@@ -81,18 +83,20 @@ featured_image = "https://images.unsplash.com/photo-1558566121-1fd2259638ef?ixli
     }
    ```
 
-4. ### 常见的多项式复杂度
 
-   - #### O(1)
+
+### 常见的多项式复杂度
+
+   - O(1)
    
      ```c++
       int i = 8;
       int j = 6;
       int sum = i + j;
      ```
-   
-   
-   - #### O(logn)、O(logn)
+
+
+   - O(logn)、O(logn)
    
      ```c++
       i=1;
@@ -101,7 +105,7 @@ featured_image = "https://images.unsplash.com/photo-1558566121-1fd2259638ef?ixli
       }
      ```
    
-   - #### O(m+n)、O(m*n)
+   - O(m+n)、O(m*n)
    
      ```c++
      int cal(int m, int n) {
