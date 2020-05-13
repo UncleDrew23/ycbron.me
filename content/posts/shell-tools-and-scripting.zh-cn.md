@@ -13,7 +13,7 @@ featured_image = "https://images.unsplash.com/photo-1589287665644-da432657a081?i
 
 # Shell Scripting
 
-- ## Variable
+* ## Variable
 
   ```bash
   foo=bar
@@ -25,7 +25,7 @@ featured_image = "https://images.unsplash.com/photo-1589287665644-da432657a081?i
 
   
 
-- ## Control Flow
+## Control Flow
 
   ```bash
   mcd () {
@@ -43,7 +43,7 @@ featured_image = "https://images.unsplash.com/photo-1589287665644-da432657a081?i
   > - `!!` - Entire last command, including arguments. A common pattern is to execute a command only for it to fail due to missing permissions, then you can quickly execute it with sudo by doing `sudo !!`
   > - `$_` - Last argument from the last command. If you are in an interactive shell, you can also quickly get this value by typing `Esc` followed by `.`
 
-- ## Exist Codes
+## Exist Codes
 
   ```bash
   true
