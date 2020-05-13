@@ -1,5 +1,5 @@
 +++
-date = "2020-05-14"
+date = "2020-05-13"
 title = "Shell tools and Scripting"
 tags = [
     "Shell"
