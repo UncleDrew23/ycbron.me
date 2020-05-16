@@ -13,7 +13,7 @@ featured_image = "https://images.unsplash.com/photo-1589287665644-da432657a081?i
 
 # Shell Scripting
 
-* ## Variable
+## Variable
 
   ```bash
   foo=bar
@@ -66,5 +66,6 @@ featured_image = "https://images.unsplash.com/photo-1589287665644-da432657a081?i
 
   > - Exit codes can be used to conditionally execute commands using `&&` (and operator) and `||` (or operator). Commands can also be separated within the same line using a semicolon `;`. The `true` program will always have a 0 return code and the `false` command will always have a 1 return code. 
   > - A value of 0 usually means everything went OK, anything different from 0 means an error occurred.
+  > - If two commands are separated with `&&`, the second command is only executed if the first command returns a zero exit status.
+  > - If two commands are separated with `||`, the second command is only executed if the first command returns a non-zero exit status.
 
-- 
